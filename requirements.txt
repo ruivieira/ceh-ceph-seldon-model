@@ -1,0 +1,8 @@
+jupyter
+matplotlib
+numpy
+pandas
+sklearn
+sklearn-pandas
+joblib
+boto3
