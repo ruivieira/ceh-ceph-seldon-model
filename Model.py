@@ -18,7 +18,7 @@ class Model(object):
         self._S3_ACCESS_KEY = os.environ['AWS_ACCESS_KEY_ID']
         self._S3_SECRET_KEY = os.environ['AWS_SECRET_ACCESS_KEY']
 
-        self._S3_BUCKET="data"
+        self._S3_BUCKET="models"
 
         client = boto3.client(
             service_name='s3',
